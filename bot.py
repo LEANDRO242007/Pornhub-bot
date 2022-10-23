@@ -7,9 +7,9 @@ from sites.dl import ydl
 
 bot = Client(
     'SearcherBot',
-    api_hash="578d2817642f3aa3a283efaf49f4ef4e",
-    api_id=int(12845924),
-    bot_token="5702305052:AAFQHDsh1qczJQadhHjva7KBxqsuhDEfD20"
+    api_hash="",
+    api_id=,
+    bot_token=""
 )
 
 async def progress(current, total, client, info):
