@@ -9,7 +9,7 @@ bot = Client(
     'SearcherBot',
     api_hash="",
     api_id=,
-    bot_token=""
+    bot_token="5885614055:AAFwNV3Cg-6P3UDyCb8i861wOHY9suDOAyw"
 )
 
 async def progress(current, total, client, info):
@@ -42,7 +42,7 @@ predeterminada de los videos es 720p o la menor
 que tenga el video a esa, ya que no se puede 
 elegir calidad
 
-Esperamos que disfrute de __@PornhubSearcherBot__🖤🧡""")
+Esperamos que disfrute de __@MelioCr3931Fbot__🖤🧡""")
 
     elif message.text.startswith("https://es.pornhub.com/"):
 
@@ -62,7 +62,7 @@ Esperamos que disfrute de __@PornhubSearcherBot__🖤🧡""")
     elif message.text: 
         sp = phub(message.text)
         await message.reply_photo(photo="weloveporn.jpg")
-        msg = f"Resultados de {message.text} en __@PornhubSearcherBot__\n\n"
+        msg = f"Resultados de {message.text} en __@MelioCr3931Fbot__\n\n"
         
         for i in sp:
             msg += i.a.get('title')+"\n"
@@ -86,7 +86,7 @@ solo envielos y el bot se lo subira, la calidad
  predeterminada de los videos es la maxima, 
 ya que no se puede elegir calidad
 
-Esperamos que disfrute de __@PornhubSearcherBot__""")
+Esperamos que disfrute de __@MelioCr3931Fbot__""")
        
 
 if __name__ == '__main__':
