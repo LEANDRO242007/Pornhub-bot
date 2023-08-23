@@ -16,4 +16,4 @@ class YT_DLP_LOGGER(object):
     def error(self, msg):
             pass
     def warning(self, msg):
-            pass
+            f
